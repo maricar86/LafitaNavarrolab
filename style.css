@@ -32,6 +32,11 @@ p 	{
 	margin-top: 0px;
     margin-bottom: 0px;
 	}
+footer	{
+	background-color:rgb(23,163,233);		
+	padding:2%;
+	margin-top: 2%;	
+	}
 .topnav {
 	background-color:rgb(23,163,233);		
 	overflow: hidden;
