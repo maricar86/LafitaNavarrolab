@@ -33,6 +33,7 @@ p 	{
     margin-bottom: 0px;
 	}
 footer	{
+	clear: both;
 	background-color:rgb(23,163,233);		
 	padding:2%;
 	margin-top: 2%;	
