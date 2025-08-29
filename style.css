@@ -118,7 +118,8 @@ footer	{
 	}
 .container{
 	display: grid;
-  	grid-template-columns: 25% 15%
+  	grid-template-columns: 25% 15%;
+	padding-left:10%;
 	}
 .column1 {
 	flex-grow: 0;
