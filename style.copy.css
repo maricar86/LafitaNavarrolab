@@ -269,6 +269,12 @@ THIS SECTION IS SPECIFIC FOR PAGE RESEARCH
 	padding-bottom: 0.5%;
 	padding-top: 3%;
 	}
+@media screen and (max-width: 700px){
+	.paragraph-project img {
+		width: 10em;
+		float: right;
+		}
+	}
 /*
 THIS IS FOR JOIN US
 */
