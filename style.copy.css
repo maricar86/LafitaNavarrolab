@@ -388,3 +388,43 @@ THIS IS FOR LAB NEWS AND LAB ACTIVITIES
 		padding-left:4em;	
 		}
 	}
+/*
+THIS IS FOR CONTACT
+*/
+@media screen and (max-width: 700px){
+	.container{
+		display: grid;
+  		grid-template-columns: 40% 20%;
+		padding-left:0;
+		}
+	.column1 {
+		flex-grow: 0;
+		flex-shrink: 0;
+		flex-basis: 100%;
+		position: relative;
+		height: 100%;
+    		border: 1% solid #ccc;
+  		padding: 10%;
+		place-items: center;
+		padding-top: 1em;
+		}
+	.column2 {
+    		position: relative;
+    		width: 300%;
+   		min-height: 1%;
+		max-width:200%
+   		box-sizing: border-box;
+		}
+	.imgwrap {
+  		width: 75%;
+		min-width: 100%;
+    		margin: auto;
+    		border-top-width: 23%;
+    		padding-top: 0%;
+		}
+	.paragraph {
+		font-size:0.8em;
+		text-align:left;
+		padding:0;
+		}
+	}
