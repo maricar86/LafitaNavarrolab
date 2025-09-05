@@ -319,7 +319,7 @@ THIS IS FOR LAB NEWS AND LAB ACTIVITIES
 	font-weight: normal;
 	font-size:1.1em;
 	color:rgb(9, 100, 134);
-	padding-left: 9%; 
+	padding-left: 7em; 
 	padding-bottom: 0.5%;
 	padding-top: 0%;
 	}
@@ -330,14 +330,14 @@ THIS IS FOR LAB NEWS AND LAB ACTIVITIES
 .news-img{
 	width:30%;
 	height:30%;
-	margin-left:40%;
+	margin-left:30em;
 	}
 .subhead1 {
 	font-family:Avenir Next; 
 	font-weight: normal;
 	font-size: 1.5em;
 	color:rgb(23,163,233); 
-	padding-left: 7%; 
+	padding-left: 4em; 
 	padding-bottom: 0.5%;
 	padding-top: 3%;
 	}
@@ -346,8 +346,45 @@ THIS IS FOR LAB NEWS AND LAB ACTIVITIES
 	font-weight: bold;
 	font-size:1.2em;
 	color:rgb(9, 100, 134);
-	padding-left: 9%; 
+	padding-left: 7em; 
 	padding-bottom: 0%;
 	padding-top: 0%;
 	}
-
+@media screen and (max-width: 700px){
+	.subhead1 {
+		font-family:Avenir Next; 
+		font-weight: normal;
+		font-size: 1.5em;
+		color:rgb(23,163,233); 
+		padding-left: 1em; 
+		padding-bottom: 0.5%;
+		padding-top: 3%;
+		}
+	.news-head {
+		font-family:Avenir Next;
+		font-weight: bold;
+		font-size:1.2em;
+		color:rgb(9, 100, 134);
+		padding-left: 2em; 
+		padding-bottom: 0%;
+		padding-top: 0%;
+		}
+	.date	{
+		font-family:Avenir Next;
+		font-weight: normal;
+		font-size:1.1em;
+		color:rgb(9, 100, 134);
+		padding-left: 0%; 
+		padding-bottom: 0.5%;
+		padding-top: 0%;
+		}
+	.paragraph-news{
+		text-indent: 0;
+		padding-left: 3em;
+		}
+	.news-img{
+		width:10em;
+		margin-left:3em;
+		padding-left:4em;	
+		}
+	}
